@@ -1,0 +1,19 @@
+{
+  "python": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "seeds": [
+    7,
+    19,
+    42,
+    73,
+    101
+  ],
+  "batch_size": 1000,
+  "timing_repetitions": 3,
+  "dataset_sha256": "199109ed0f273e095da6ccd5fc9dc4cd8bb58daa06d62135e62090fea9d27488",
+  "sweep_valid_events": 100000,
+  "timing": "update + query; excludes parsing, validation, memory measurement and plotting",
+  "memory": "final reachable Python state, counted independently; not peak process RSS",
+  "scaling": "prefix snapshots within three full replays per algorithm"
+}

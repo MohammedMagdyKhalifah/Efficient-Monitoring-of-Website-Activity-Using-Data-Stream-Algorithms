@@ -1,0 +1,20 @@
+test_invalid_parameters (test_algorithms.BloomTests.test_invalid_parameters) ... ok
+test_membership_and_no_false_negatives (test_algorithms.BloomTests.test_membership_and_no_false_negatives) ... ok
+test_query_before_insertion_and_reproducibility (test_algorithms.BloomTests.test_query_before_insertion_and_reproducibility) ... ok
+test_saturation_still_has_no_false_negatives (test_algorithms.BloomTests.test_saturation_still_has_no_false_negatives) ... ok
+test_exhaustive_short_sequences (test_algorithms.DGIMTests.test_exhaustive_short_sequences) ... ok
+test_invalid_parameters (test_algorithms.DGIMTests.test_invalid_parameters) ... ok
+test_random_stream_and_boundary_expiration (test_algorithms.DGIMTests.test_random_stream_and_boundary_expiration) ... ok
+test_zeros_ones_alternation_and_sparse_events (test_algorithms.DGIMTests.test_zeros_ones_alternation_and_sparse_events) ... ok
+test_empty_and_duplicate_invariance (test_algorithms.FMTests.test_empty_and_duplicate_invariance) ... ok
+test_invalid_hash_count (test_algorithms.FMTests.test_invalid_hash_count) ... ok
+test_matches_independent_trailing_zero_calculation (test_algorithms.FMTests.test_matches_independent_trailing_zero_calculation) ... ok
+test_order_invariance_and_fixed_memory (test_algorithms.FMTests.test_order_invariance_and_fixed_memory) ... ok
+test_limit_counts_valid_rows_and_preserves_order (test_algorithms.ParserTests.test_limit_counts_valid_rows_and_preserves_order) ... ok
+test_real_format_and_unknown_bytes (test_algorithms.ParserTests.test_real_format_and_unknown_bytes) ... ok
+test_reject_bad_records (test_algorithms.ParserTests.test_reject_bad_records) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.148s
+
+OK

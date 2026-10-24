@@ -1,0 +1,15 @@
+{
+  "validated_at_utc": "2026-10-24T18:54:57.811064+00:00",
+  "dataset_sha256": "199109ed0f273e095da6ccd5fc9dc4cd8bb58daa06d62135e62090fea9d27488",
+  "valid_requests": 1891714,
+  "parameter_cases": 63,
+  "scaling_raw_rows": 36,
+  "scaling_summary_rows": 12,
+  "figures": 7,
+  "correctness_tests": "15 passed",
+  "deterministic_repetitions": true,
+  "dgim_full_checkpoint_error_bound": "passed",
+  "bloom_false_negatives": 0,
+  "web_correctness_tests": "8 passed",
+  "browser_python_full_stream_agreement": true
+}

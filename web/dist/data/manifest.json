@@ -1,0 +1,142 @@
+{
+  "lines": 1891715,
+  "valid": 1891714,
+  "skipped": 1,
+  "unknown_bytes": 19726,
+  "timestamp_inversions": 0,
+  "source_url": "https://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz",
+  "source_page": "https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html",
+  "source_file": "NASA_access_log_Jul95.gz",
+  "sha256": "199109ed0f273e095da6ccd5fc9dc4cd8bb58daa06d62135e62090fea9d27488",
+  "compressed_bytes": 20676672,
+  "exact_hosts": 81982,
+  "statuses": {
+    "200": 1701534,
+    "304": 132627,
+    "302": 46573,
+    "404": 10845,
+    "403": 54,
+    "500": 62,
+    "501": 14,
+    "400": 5
+  },
+  "daily_counts": {
+    "01/Jul/1995": 64714,
+    "02/Jul/1995": 60265,
+    "03/Jul/1995": 89584,
+    "04/Jul/1995": 70452,
+    "05/Jul/1995": 94575,
+    "06/Jul/1995": 100960,
+    "07/Jul/1995": 87233,
+    "08/Jul/1995": 38867,
+    "09/Jul/1995": 35272,
+    "10/Jul/1995": 72860,
+    "11/Jul/1995": 80407,
+    "12/Jul/1995": 92536,
+    "13/Jul/1995": 134203,
+    "14/Jul/1995": 84103,
+    "15/Jul/1995": 45532,
+    "16/Jul/1995": 47854,
+    "17/Jul/1995": 74981,
+    "18/Jul/1995": 64282,
+    "19/Jul/1995": 72738,
+    "20/Jul/1995": 66593,
+    "21/Jul/1995": 64629,
+    "22/Jul/1995": 35267,
+    "23/Jul/1995": 39199,
+    "24/Jul/1995": 64259,
+    "25/Jul/1995": 62699,
+    "26/Jul/1995": 58849,
+    "27/Jul/1995": 61680,
+    "28/Jul/1995": 27121
+  },
+  "errors": 10980,
+  "first_timestamp": "01/Jul/1995:00:00:01 -0400",
+  "last_timestamp": "28/Jul/1995:13:32:25 -0400",
+  "sample_events": [
+    {
+      "host": "199.72.81.55",
+      "timestamp": "01/Jul/1995:00:00:01 -0400",
+      "request": "GET /history/apollo/ HTTP/1.0",
+      "status": 200,
+      "bytes_sent": 6245
+    },
+    {
+      "host": "unicomp6.unicomp.net",
+      "timestamp": "01/Jul/1995:00:00:06 -0400",
+      "request": "GET /shuttle/countdown/ HTTP/1.0",
+      "status": 200,
+      "bytes_sent": 3985
+    },
+    {
+      "host": "199.120.110.21",
+      "timestamp": "01/Jul/1995:00:00:09 -0400",
+      "request": "GET /shuttle/missions/sts-73/mission-sts-73.html HTTP/1.0",
+      "status": 200,
+      "bytes_sent": 4085
+    },
+    {
+      "host": "burger.letters.com",
+      "timestamp": "01/Jul/1995:00:00:11 -0400",
+      "request": "GET /shuttle/countdown/liftoff.html HTTP/1.0",
+      "status": 304,
+      "bytes_sent": 0
+    },
+    {
+      "host": "199.120.110.21",
+      "timestamp": "01/Jul/1995:00:00:11 -0400",
+      "request": "GET /shuttle/missions/sts-73/sts-73-patch-small.gif HTTP/1.0",
+      "status": 200,
+      "bytes_sent": 4179
+    }
+  ],
+  "epoch": 804571201,
+  "record_bytes": 20,
+  "record_fields": [
+    "host_id",
+    "elapsed_seconds",
+    "request_id",
+    "http_status",
+    "bytes_or_0xFFFFFFFF"
+  ],
+  "hash_stride": 92,
+  "seeds": [
+    7,
+    19,
+    42,
+    73,
+    101
+  ],
+  "hash_format": "7 little-endian low uint32 words, then 64 trailing-zero counts; BLAKE2b-64",
+  "browser_note": "Deterministic hashes are input preparation; all sketch updates and exact checks run in a Web Worker.",
+  "prepared_assets": {
+    "catalog.json.gz": {
+      "bytes": 841107,
+      "sha256": "6a9d4d34df1b4c760a68e801941993b29191f1243f4600fd9793551ad5113b2f"
+    },
+    "hashes-101.bin.gz": {
+      "bytes": 4343245,
+      "sha256": "2a433b9bfd4ddae1f12d080f7820bf04f4c5b50eb539c5dc1c6cd3b644762428"
+    },
+    "events.bin.gz": {
+      "bytes": 11109627,
+      "sha256": "7ac701010a72e7469aac49a21e291804eeaca51935eb7a2996e0397c4257ae75"
+    },
+    "hashes-19.bin.gz": {
+      "bytes": 4344781,
+      "sha256": "617afa66523a668e7a375a425394efefd7d83700a0c7b007c8e2c2427aaf9e80"
+    },
+    "hashes-7.bin.gz": {
+      "bytes": 4344369,
+      "sha256": "6dd3803a9a60928656040d5c279a2c78e8bb2b613299ea8a53285130096a9113"
+    },
+    "hashes-42.bin.gz": {
+      "bytes": 4344125,
+      "sha256": "88fbef2a8e18a0fd280619cad94bba5d88c54e037d8b4acfc7c3a9f8200b7b06"
+    },
+    "hashes-73.bin.gz": {
+      "bytes": 4344504,
+      "sha256": "0ee0118c9f7048d0de26d0fad5c53647985e27a85df7d1831546dc9ad49e607b"
+    }
+  }
+}

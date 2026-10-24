@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: Bloom queries before inserting and never loses an inserted host
+ok 1 - Bloom queries before inserting and never loses an inserted host
+  ---
+  duration_ms: 0.6095
+  type: 'test'
+  ...
+# Subtest: FM duplicate invariance, empty stream and group arithmetic
+ok 2 - FM duplicate invariance, empty stream and group arithmetic
+  ---
+  duration_ms: 0.58
+  type: 'test'
+  ...
+# Subtest: DGIM exhaustively matches its positive-count bound and exact zero case
+ok 3 - DGIM exhaustively matches its positive-count bound and exact zero case
+  ---
+  duration_ms: 19.908791
+  type: 'test'
+  ...
+# Subtest: Invalid configurations are rejected
+ok 4 - Invalid configurations are rejected
+  ---
+  duration_ms: 0.201375
+  type: 'test'
+  ...
+# Subtest: ZIP creation emits standard signatures, Unicode names and a valid CRC
+ok 5 - ZIP creation emits standard signatures, Unicode names and a valid CRC
+  ---
+  duration_ms: 1.022792
+  type: 'test'
+  ...
+# Subtest: All browser benchmark evidence is complete
+ok 6 - All browser benchmark evidence is complete
+  ---
+  duration_ms: 0.3695
+  type: 'test'
+  ...
+# Subtest: Browser summaries reproduce the Python results on the complete real stream
+ok 7 - Browser summaries reproduce the Python results on the complete real stream
+  ---
+  duration_ms: 4122.451792
+  type: 'test'
+  ...
+# Subtest: The actual worker supports init, one step, real playback and one-per-second pacing
+ok 8 - The actual worker supports init, one step, real playback and one-per-second pacing
+  ---
+  duration_ms: 349.528542
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4553.946125

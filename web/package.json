@@ -1,0 +1,1 @@
+{"name":"nasa-streamlab","private":true,"type":"module","scripts":{"start":"python3 ../serve_web.py","test":"node --test tests/*.test.mjs"}}

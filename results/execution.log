@@ -1,0 +1,129 @@
+Parameter sweep: bloom {'bits': 65536, 'hashes': 2}
+Parameter sweep: bloom {'bits': 65536, 'hashes': 4}
+Parameter sweep: bloom {'bits': 65536, 'hashes': 7}
+Parameter sweep: bloom {'bits': 262144, 'hashes': 2}
+Parameter sweep: bloom {'bits': 262144, 'hashes': 4}
+Parameter sweep: bloom {'bits': 262144, 'hashes': 7}
+Parameter sweep: bloom {'bits': 1048576, 'hashes': 2}
+Parameter sweep: bloom {'bits': 1048576, 'hashes': 4}
+Parameter sweep: bloom {'bits': 1048576, 'hashes': 7}
+Parameter sweep: fm {'hashes': 1}
+Parameter sweep: fm {'hashes': 16}
+Parameter sweep: fm {'hashes': 64}
+Parameter sweep: dgim {'window': 1000}
+Parameter sweep: dgim {'window': 10000}
+Parameter sweep: dgim {'window': 100000}
+Full pass: bloom repeat 1 events 1891714
+Full pass: bloom repeat 2 events 1891714
+Full pass: bloom repeat 3 events 1891714
+Full pass: fm repeat 1 events 1891714
+Full pass: fm repeat 2 events 1891714
+Full pass: fm repeat 3 events 1891714
+Full pass: dgim repeat 1 events 1891714
+Full pass: dgim repeat 2 events 1891714
+Full pass: dgim repeat 3 events 1891714
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mohammedkhalifah/.cache/fontconfig
+	/Users/mohammedkhalifah/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mohammedkhalifah/.cache/fontconfig
+	/Users/mohammedkhalifah/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mohammedkhalifah/.cache/fontconfig
+	/Users/mohammedkhalifah/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mohammedkhalifah/.cache/fontconfig
+	/Users/mohammedkhalifah/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+Saved seven figures to /Users/mohammedkhalifah/Desktop/University/Master/level 1/Big Data Mining/Assignment 2/results/figures
+[
+  {
+    "algorithm": "bloom",
+    "events": 1891714,
+    "seed": 42,
+    "bits": 1048576,
+    "hashes": 7,
+    "window": "",
+    "exact": 81982,
+    "estimate": null,
+    "relative_error": 0.00032934058695811277,
+    "mean_checkpoint_relative_error": null,
+    "mean_checkpoint_absolute_error": null,
+    "false_positives": 27,
+    "negative_queries": 81982,
+    "false_negatives": 0,
+    "final_theoretical_fpr": 0.0023630172843530986,
+    "state_bytes": 131927,
+    "exact_state_bytes": 9086764,
+    "ideal_payload_bytes": 131072,
+    "exact_packed_window_bytes": null,
+    "approximate_seconds": 11.410616108798422,
+    "exact_seconds": 0.19027883443050086,
+    "throughput": 165785.43892484033,
+    "exact_throughput": 9941799.389626525,
+    "buckets": null,
+    "skipped_lines": 1
+  },
+  {
+    "algorithm": "fm",
+    "events": 1891714,
+    "seed": 42,
+    "bits": "",
+    "hashes": 16,
+    "window": "",
+    "exact": 81982,
+    "estimate": 442368.0,
+    "relative_error": 4.39591617672172,
+    "mean_checkpoint_relative_error": 5.0255977816377975,
+    "mean_checkpoint_absolute_error": 262845.50687103596,
+    "false_positives": 0,
+    "negative_queries": 0,
+    "false_negatives": 0,
+    "final_theoretical_fpr": null,
+    "state_bytes": 1459,
+    "exact_state_bytes": 9086764,
+    "ideal_payload_bytes": 16,
+    "exact_packed_window_bytes": null,
+    "approximate_seconds": 21.591110799170565,
+    "exact_seconds": 0.135858851717785,
+    "throughput": 87615.40884096947,
+    "exact_throughput": 13924112.975204542,
+    "buckets": null,
+    "skipped_lines": 1
+  },
+  {
+    "algorithm": "dgim",
+    "events": 1891714,
+    "seed": 42,
+    "bits": "",
+    "hashes": "",
+    "window": 10000,
+    "exact": 30,
+    "estimate": 28.0,
+    "relative_error": 0.06666666666666667,
+    "mean_checkpoint_relative_error": 0.10864496516178589,
+    "mean_checkpoint_absolute_error": 6.270084566596195,
+    "false_positives": 0,
+    "negative_queries": 0,
+    "false_negatives": 0,
+    "final_theoretical_fpr": null,
+    "state_bytes": 1396,
+    "exact_state_bytes": 10574,
+    "ideal_payload_bytes": null,
+    "exact_packed_window_bytes": 1250,
+    "approximate_seconds": 0.48469484137604013,
+    "exact_seconds": 0.5888404732686467,
+    "throughput": 3902896.912683158,
+    "exact_throughput": 3212608.6535783065,
+    "buckets": 7,
+    "skipped_lines": 1
+  }
+]

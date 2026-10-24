@@ -1,0 +1,23 @@
+# Local environments and editor settings
+.deps/
+.venv/
+venv/
+.idea/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.*
+web/.openai/
+
+# Working previews, old templates and generated large bundles
+tmp/
+/*.docx
+output/*
+!output/docx/
+!output/pdf/

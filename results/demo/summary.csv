@@ -1,0 +1,4 @@
+algorithm,events,seed,bits,hashes,window,exact,estimate,relative_error,mean_checkpoint_relative_error,mean_checkpoint_absolute_error,false_positives,negative_queries,false_negatives,final_theoretical_fpr,state_bytes,exact_state_bytes,ideal_payload_bytes,exact_packed_window_bytes,approximate_seconds,exact_seconds,throughput,exact_throughput,buckets,skipped_lines
+bloom,10000,42,1048576,7,,936,,0.0,,,0,936,0,3.638521131293911e-16,132119,89552,131072,,0.064404541044496,0.0008403740357607603,155268.5546364063,11899463.303798243,,0
+fm,10000,42,,16,,936,2528.0,1.7008547008547008,3.773788404695012,1512.3,0,0,0,,1579,89552,16,,0.13095108570996672,0.0005654142005369067,76364.39167941085,17686149.35830085,,0
+dgim,10000,42,,,10000,48,48.0,0.0,0.0,0.0,0,0,0,,1420,10598,,1250,0.001531330868601799,0.0013463330687955022,6530267.367450528,7427582.543854848,7,0

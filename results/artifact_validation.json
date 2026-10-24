@@ -1,0 +1,29 @@
+{
+  "pdf_pages": 66,
+  "pdf_sha256": "832099139bdc41631bf3b6e21f9966f9184410ffc6a459e847a857e939a1f0a5",
+  "margin_violations": 0,
+  "identity_present_on_all_pages": true,
+  "visual_review": "Final 66-page PDF render reviewed",
+  "python_tests": "15 passed",
+  "web_tests": "8 passed",
+  "browser_python_full_stream_agreement": true,
+  "browser_ui": "Offline HTML loaded; first request step and real 100k-event counters observed",
+  "browser_qa_limit": "Native browser inspection became unavailable during further interaction checks; mobile layout not separately emulated",
+  "hosting": "Source push blocked by DNS resolution of git.chatgpt-team.site; no deployed URL claimed",
+  "included_python_source_sha256": {
+    "bloom_filter.py": "c097050574f727f4a6d9943d89fdb447107910098d3be34cbcd4844547b25f25",
+    "dgim.py": "2fef404f309364b1580c7536ffbc6fb5f3d1a7202bdf91212f63507af2434655",
+    "download_data.py": "e12638e67b7f32bcaedf847359857692af585df2f603b221f88822c5dc0636f7",
+    "experiments.py": "625aba12f417fa08cf5b1b81ccbbd92bbd29e44dbf84c34a558aed44345ca3a4",
+    "flajolet_martin.py": "c421f0a855262b492d9706e40d190552321580c3e2c39efae977849e71343735",
+    "generate_report.py": "d7a812b19860cafdf9d3522a6eb31e7514e7963759699a8f4e18a97a83e93df0",
+    "main.py": "699c361429c2e1482bfd43703a1aa2908d490688fea6b290310a419d888bab98",
+    "package_submission.py": "510fbddbb229ea859ec81cdf42e54998a948653a2cce96424c220f30cbd21223",
+    "plots.py": "0ee53eb9e8faa7af2ea7618b3c25ed586f78376413382b4b0cb88c7570cb21c0",
+    "prepare_web.py": "2da13f9e3cbd9057c5f84b3a8ecedb8c928e0f891c7a03ab26ec2ac362aeff20",
+    "serve_web.py": "066ea84e73bc8e4087fcdee7b4029f8f8a83ad81bfce1c1a907521a833d137ff",
+    "stream.py": "f1491cadaf6efb037b1134a2c21d4944af4be6e1120c5dab96c2ea4f34d9a207",
+    "web_bundle.py": "dfb55e033f9479dd3b6121b265570e2364b4c0907e2bff6fc6f2afc645cc7b56"
+  },
+  "browser_download_zip": "71-file ZIP round trip verified; CRC and original dataset match"
+}
