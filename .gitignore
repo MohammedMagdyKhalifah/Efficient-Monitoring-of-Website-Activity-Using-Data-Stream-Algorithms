@@ -17,7 +17,6 @@ web/.openai/
 
 # Working previews, old templates and generated large bundles
 tmp/
-/*.docx
 output/*
 !output/docx/
 !output/pdf/
